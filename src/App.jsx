@@ -5,17 +5,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          K Praveen Kumar
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+        <div className="nav">
+          <div className="logo">
+            <h2>kp97</h2>
+          </div>
+          <div className="main-menu">
+            <ul>
+              <li><a href="#">Summary</a></li>
+              <li><a href="#">Work experience</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Links to live works</a></li>
+            </ul>
+          </div>
+        </div>
+        <h2>K Praveen Kumar</h2>
       </header>
     </div>
   );

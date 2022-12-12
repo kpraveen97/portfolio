@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App h2 {
+  font-size: calc(1.2rem + 2.4vh);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-menu ul {
+   list-style: none;
+   display: flex;
+}
+.main-menu ul li {
+   margin-right: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+    text-decoration: none;
 }
